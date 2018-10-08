@@ -1,4 +1,7 @@
 def rotate(nums, k):
+    """ The trick is that we are moving not just each value but slice of array
+    to it's new position by calculating value of modulus remainder
+    """
     k = k % len(nums)
     if k == 0:
         return
