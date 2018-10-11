@@ -1,7 +1,7 @@
 def intersect(nums1, nums2):
     """ One-line solution is complicated
     Second solution trick is to fill up new list with each element quantity
-    and increase this quantity is it not unique or keep it equal to 1 if 
+    and increase this quantity is it not unique or keep it equal to 1 if
     unique. After that for each element in second list decrease the value of
     each element if it exists and greater than 0
     """
